@@ -1,0 +1,148 @@
+*{
+    text-decoration: none;
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+}
+body{
+    background-color: black;
+}
+.text1{
+    position: absolute;
+    font-size: 200px;
+    font-weight: bold;
+    top:2vh;
+    left:30vw;
+    text-shadow: 0 0 32px white;
+   color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation: glow1 2s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow1 {
+from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #dbe600, 0 0 40px #ffbe4d, 0 0 50px #dbe600, 0 0 60px #dbe600, 0 0 70px #dbe600;
+}
+to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #dbe600, 0 0 50px #ffbe4d, 0 0 60px #ffbe4d, 0 0 70px #ffbe4d, 0 0 80px #dbe600;  
+}
+}
+.text2{
+    text-shadow: 0 0 15px white;
+   color: transparent;
+    line-height: 80%;
+    position: absolute;
+    font-size: 100px;
+    top:35vh;
+    left:4vw;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    animation:glow2 3s ease-in-out infinite alternate;
+}
+@keyframes glow2{
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #005ce6, 0 0 40px #005ce6, 0 0 50px #005ce6, 0 0 60px #005ce6, 0 0 70px #005ce6;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #005ce6, 0 0 40px #005ce6, 0 0 50px #005ce6, 0 0 60px #005ce6, 0 0 70px #005ce6, 0 0 80px #005ce6;  
+    }
+}
+.text3{
+    display:inline-block;
+    line-height: 100%;
+    position: absolute;
+    font-size: 40px;
+    text-align: right;
+    top:95vh;
+    right:2vw;
+    color: rgb(250, 250, 250);
+    opacity:80%;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    animation: blinking 0.5s infinite,
+    glow3 5s ease-in-out infinite alternate;
+}
+@keyframes blinking{
+    0%{     color: rgb(255, 255, 255);    }
+    40%{    color: rgb(107, 254, 227); }
+    60%{    color: transparent; }
+    90%{    color:transparent;  }
+    100%{   color: rgb(255, 255, 255);    }
+}
+@keyframes glow3{
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(107, 254, 227), 0 0 40px rgb(107, 254, 227), 0 0 50px rgb(107, 254, 227), 0 0 60px rgb(107, 254, 227), 0 0 70px rgb(107, 254, 227);
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px rgb(107, 254, 227), 0 0 40px rgb(107, 254, 227), 0 0 50px rgb(107, 254, 227), 0 0 60px rgb(107, 254, 227), 0 0 70px rgb(107, 254, 227), 0 0 80px rgb(107, 254, 227);  
+    }
+}
+
+.text3:hover{
+    opacity:40%;
+}
+.text4{
+    text-shadow: 0 0 10px rgb(237, 175, 175);
+   color: transparent;
+    display:inline-block;
+    line-height: 100%;
+    position: absolute;
+    font-size: 50px;
+    text-align: center;
+    top:125vh;
+    left:30vw;
+    opacity:70%;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    /* animation: glow2 8s ease-in-out infinite alternate; */
+}
+.text5{
+    text-shadow: 0 0 50px rgb(237, 175, 175);
+   color: transparent;
+    display:inline-block;
+    line-height: 100%;
+    position: absolute;
+    font-size: 80px;
+    text-align: right;
+    top:158vh;
+    right:3vw;
+    opacity:70%;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    animation: glow2 8s ease-in-out infinite alternate;
+}
+
+.text6{
+    text-shadow: 0 0 80px rgb(255, 255, 255);
+   color: transparent;
+    display:inline-block;
+    line-height: 100%;
+    position: absolute;
+    font-size: 180px;
+    top:220vh;
+    left:3vw;
+    opacity:50%;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    animation: blinking 1s infinite;
+}
+
+.footer{
+    margin-bottom: 10vh;
+    color:white;
+    display:inline-block;
+    line-height: 100%;
+    position: absolute;
+    font-size: 12px;
+    text-align: right;
+    top:325vh;
+    right:3vw;
+    opacity:70%;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    animation: glow1 10s ease-in-out infinite alternate;
+}

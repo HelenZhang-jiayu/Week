@@ -1,0 +1,74 @@
+*{
+    text-decoration: none;
+    padding:0;
+    margin:0;
+}
+h1{
+    font-family: sans-serif;
+    font-size: 180px;
+    font-weight: bold;
+    animation:blinking 5s infinite;
+    position: absolute;
+    left:36vw;
+}
+.block{
+    background-color: black;
+    height:20vh; 
+}
+.b1{
+    width:25vw;
+    position: absolute;
+    top:45vh;
+}
+.b2{
+    width: 16vw;
+    position: absolute;
+    top:65vh;
+    left:55vw;
+}
+.b3{
+    width: 20vw;
+    position: absolute;
+    top:85vh;
+    left:80vw;
+}
+.b4{
+    position: absolute;
+    top:105vh;
+    left:40vw;
+}
+.b5{
+    width: 20vw;
+    position: absolute;
+    top:125vh;
+}
+.b6{width: 30vw;
+    position: absolute;
+    top:145vh;
+    left:80vw;
+}
+.b1:hover{
+    background-color: coral;
+}
+.b2:hover{
+    background-color: rgb(124, 255, 80);
+}
+.b3:hover{
+    background-color: rgb(240, 50, 50);
+}
+.b4:hover{
+    background-color: rgb(80, 121, 255);
+}
+.b5:hover{
+    background-color: rgb(147, 80, 255);
+}
+.b6:hover{
+    background-color: rgb(80, 229, 255);
+}
+@keyframes blinking{
+    0%{     color: rgb(255, 255, 255);    }
+    40%{    color: rgb(177, 17, 17); }
+    60%{    color: transparent; }
+    90%{    color:transparent;  }
+    100%{   color: rgb(255, 255, 255);    }
+}

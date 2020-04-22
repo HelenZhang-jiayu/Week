@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+h1{
+    font-size: 20px;
+    position: absolute;
+    left:47vw;
+    color:white;
+    font-family: sans-serif;
+}
+#box {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    position:absolute;
+    top:50px;
+    left:50px;
+    background-color: red; 
+  }

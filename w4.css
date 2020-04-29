@@ -1,0 +1,44 @@
+body{
+    animation: color 5s infinite ease-in-out;
+    }
+    @keyframes color {
+        0% {
+          background-color: rgb(113, 113, 113);
+        }
+        50% {
+          background-color: rgb(0, 0, 0);
+        }
+        100% {
+            background-color: rgb(113, 113, 113);
+          }
+        }
+*{
+    margin-right: 2vw;
+    font-family: sans-serif;
+    position:relative;
+    color:white;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    font-size:30px;
+}
+h2{
+    text-align: center;
+    font-size:12px;
+}
+.text1{
+    text-align: right;
+    margin-top: 5vh;
+    font-size:12px;
+}
+.text2{
+    margin-top: 20vh;
+    text-align: right;
+    font-style: italic;
+}
+.text3{
+    margin-top: 20vh;
+    text-align: right;
+    font-style: italic;
+}

@@ -1,0 +1,48 @@
+*{
+    margin: 0 0 0 0;
+}
+.path {
+    position: absolute;
+    top:1vh;
+    left:2vw;
+    stroke-dasharray: 140;
+    animation: dash 10s linear;
+  }
+  
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 1000;
+    }
+  }
+  body{
+      background-color: black;
+  }
+  .path1 {
+    position: absolute;
+    top:5vh;
+    left:10vw;
+    stroke-dasharray: 60;
+    animation: dash 5s linear;
+  }
+  
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 1000;
+    }
+  }
+  .eye{
+      background-color: black;
+      position: absolute;
+      width: 60px;
+      height:60px;
+      top:33vh;
+      left:18vw;
+      border-radius: 50%;
+  }
+  .text{
+      font-family: sans-serif;
+      font-size: 100px;
+      position: absolute;
+      top:112vh;
+      left:26vw;
+  }
